@@ -1,0 +1,14 @@
+import java.lang.*;
+import java.util.*;
+public class Main
+    {
+    public static void main (String[] args)
+    {
+    Scanner s=new Scanner(System.in);
+    System.out.println("Enter the integer value");
+    int a=s.nextInt();
+    System.out.println("Value of "+a+ " in radix 2 is " +Integer.toBinaryString(a));
+    System.out.println("Value of "+a+ " in radix 8 is " +Integer.toOctalString(a));
+    System.out.println("Value of "+a+" in radix 16 is " +Integer.toHexString(a));
+        }
+    }
