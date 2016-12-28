@@ -1,0 +1,11 @@
+  import java.io.*;
+class Main {
+    public static void main(String args [])  throws IOException{
+        BufferedReader br = new BufferedReader (new InputStreamReader(System.in));
+        Double a;
+        System.out.println("Harry has got :");
+        String b = br.readLine();
+        a = Double.parseDouble(b);
+        System.out.printf("Prof.Dumbledore must get the wand worth $%.2f.",a);
+}
+}
