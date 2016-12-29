@@ -1,0 +1,15 @@
+import java.lang.*;
+import java.util.*;
+import java.io.*;
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner s=new Scanner(System.in);
+        int a;
+        System.out.println("Enter the input value");
+        a=s.nextInt();
+        System.out.println("Input multiplied by 2 = "+Integer.rotateLeft(a,1));
+        System.out.println("Input multiplied by 8 = "+Integer.rotateLeft(a,3));
+    }
+}
